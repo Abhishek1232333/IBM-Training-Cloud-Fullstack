@@ -97,6 +97,65 @@ let str="Bangalore"
 
 
 
+// Callback function
+// function greet(){
+//     console.log("Welcome to the page");
+    
+// }
+
+// function start(func){
+//     func();
+// }
+
+// start(greet)
+
+
+//setTimeout and setinterval
+// const s=setTimeout(()=>{
+//     console.log("Hi welcome!!");
+    
+// },1000);
+
+// clearTimeout(s);
+
+// console.log("Just in Time");
+
+// let count=0;
+// const st=setInterval(()=>{
+//     console.log("HI Team 1");
+//     count++;
+//     if(count>5){
+//         clearInterval(st)
+//     }
+    
+// },1000);
+
+
+//promise
+// function getdata(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             if(1==1){
+//                 resolve("Sucessfully Logged in");
+//             }else{
+//                 reject("Unauthorized access")
+//             }
+
+//         },1000)
+//     })
+// }
+
+// getdata().then((data)=>console.log(data)).catch((err)=>console.log(err)
+// );
+
+
+
+// fetch Url in JS
+fetch("https://jsonplaceholder.typicode.com/todos/1").then(response => response.json())
+      .then(json => console.log(json))
+
+
+
 
 
 
