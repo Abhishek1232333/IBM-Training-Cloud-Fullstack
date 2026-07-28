@@ -94,7 +94,7 @@ app.get('/render', async(req, res) => {
 });
 
 app.get("/basic",async(req,res)=>{
-    await res.sendFile(path.join("C:\\Users\\AbhishekGoud\\Desktop\\IBM Training Cloud Full Stack\\DAY-01\\index.html"))
+    await res.sendFile(path.join("C:\\Users\\Adminuser\\Desktop\\Cloud Full Stack-Training\\DAY-01\\index.html"))
 })
 
 app.get('/home',async(req,res)=>{
